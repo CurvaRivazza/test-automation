@@ -10,7 +10,7 @@ import org.junit.jupiter.api.BeforeAll;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 
-public abstract class WireMockBase {
+public class WireMockBase {
     protected static WireMockServer wireMockServer;
     protected static WireMock wireMockClient;
 
